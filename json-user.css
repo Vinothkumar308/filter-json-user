@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+   width:100vw;
+   height:100vh;
+   padding:20px;
+   background-color:white;
+}
+h2{
+    text-transform:capitalize;
+    margin-bottom:10px;
+}
+p{
+    text-transform:capitalize;
+    margin-bottom: 10px;
+}
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    width:100%;
+}
+th,td{
+    border:1px solid black;
+    padding:5px;
+    cursor:pointer;
+}
+table th{
+    text-transform: capitalize;
+}
+input{
+    width:300px;
+    padding:5px;
+    margin-bottom:10px;
+    outline: none;
+    border-radius: 3px;
+    border:2px solid grey;
+    cursor:pointer;
+}
+table tr:nth-child(even){
+    background-color: rgb(236, 236, 236);
+}
+table tr:hover{
+    background-color: rgb(236, 236, 236);
+}
